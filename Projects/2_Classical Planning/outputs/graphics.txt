@@ -1,0 +1,22 @@
+Axis Label
+=(Graphics!$B$1;Graphics!$G$1;Graphics!$L$1;Graphics!$Q$1)
+Expansions
+=Graphics!$B$3;Graphics!$G$3;Graphics!$L$3;Graphics!$Q$3
+=Graphics!$B$4;Graphics!$G$4;Graphics!$L$4;Graphics!$Q$4
+=Graphics!$B$5;Graphics!$G$5;Graphics!$L$5;Graphics!$Q$5
+Goal Tests
+=Graphics!$C$3;Graphics!$H$3;Graphics!$M$3;Graphics!$R$3
+=Graphics!$C$4;Graphics!$H$4;Graphics!$M$4;Graphics!$R$4
+=Graphics!$C$5;Graphics!$H$5;Graphics!$M$5;Graphics!$R$5
+New Nodes
+=Graphics!$D$3;Graphics!$I$3;Graphics!$N$3;Graphics!$S$3
+=Graphics!$D$4;Graphics!$I$4;Graphics!$N$4;Graphics!$S$4
+=Graphics!$D$5;Graphics!$I$5;Graphics!$N$5;Graphics!$S$5
+Plan length
+=Graphics!$E$3;Graphics!$J$3;Graphics!$O$3;Graphics!$T$3
+=Graphics!$E$4;Graphics!$J$4;Graphics!$O$4;Graphics!$T$4
+=Graphics!$E$5;Graphics!$J$5;Graphics!$O$5;Graphics!$T$5
+Elapsed Time
+=Graphics!$F$3;Graphics!$K$3;Graphics!$P$3;Graphics!$U$3
+=Graphics!$F$4;Graphics!$K$4;Graphics!$P$4;Graphics!$U$4
+=Graphics!$F$5;Graphics!$K$5;Graphics!$P$5;Graphics!$U$5

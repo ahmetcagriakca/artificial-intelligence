@@ -133,34 +133,30 @@ class PlanningGraph:
     def get_level_cost(self):
 
         cost = {}
-        satisfied = {}
+        results = {}
 
         for g in self.goal:
             cost[g] = 0
-            satisfied[g] = False
-
-        idx = 0
+            results[g] = False
         while not self._is_leveled:
-            ll = self.literal_layers[-1]
+            literal_layer = self.literal_layers[-1]
 
             for g in self.goal:
                 # print(g)
-                for item in ll:
+                for item in literal_layer:
                     if item == g:
-                        if not satisfied[g]:
-                            satisfied[g] = True
+                        if not results[g]:
+                            results[g] = True
 
-                if not satisfied[g]:
+                if not results[g]:
                     cost[g] += 1
 
-            no_goals_left = not (False in satisfied.values())
+            no_goals_left = not (False in results.values())
 
             if no_goals_left:
                 break
 
             self._extend()
-            idx += 1
-
         return cost
 
     def h_levelsum(self):
@@ -257,45 +253,45 @@ class PlanningGraph:
         """
         # TODO: implement setlevel heuristic
         cost = {}
-        satisfied = {}
+        results = {}
 
         for g in self.goal:
             cost[g] = 0
-            satisfied[g] = False
+            results[g] = False
 
-        idx = 0
+        temp = 0
         while not self._is_leveled:
-            ll = self.literal_layers[-1]
+            literal_layer = self.literal_layers[-1]
 
             for g in self.goal:
                 # print(g)
-                for item in ll:
+                for item in literal_layer:
                     if item == g:
-                        if not satisfied[g]:
-                            satisfied[g] = True
+                        if not results[g]:
+                            results[g] = True
 
-                if not satisfied[g]:
+                if not results[g]:
                     cost[g] += 1
 
-            no_goals_left = not (False in satisfied.values())
+            no_goals_left = not (False in results.values())
 
             if no_goals_left == False:
                 self._extend()
-                idx += 1
+                temp += 1
                 continue
 
             goals_are_mutex = False
 
             for goalA in self.goal:
                 for goalB in self.goal:
-                    if ll.is_mutex(goalA, goalB):
+                    if literal_layer.is_mutex(goalA, goalB):
                         goals_are_mutex = True
 
             if goals_are_mutex == False:
-                return idx
+                return temp
             else:
                 self._extend()
-                idx += 1
+                temp += 1
 
     ##############################################################################
     #                     DO NOT MODIFY CODE BELOW THIS LINE                     #
