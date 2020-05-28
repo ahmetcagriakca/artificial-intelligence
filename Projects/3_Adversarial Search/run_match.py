@@ -13,7 +13,7 @@ from multiprocessing.pool import ThreadPool as Pool
 
 from isolation import Isolation, Agent, play
 from sample_players import RandomPlayer, GreedyPlayer, MinimaxPlayer
-from my_custom_player import CustomPlayer
+from my_custom_player import BaselinePlayer, CustomPlayer, DefensivePlayer, AggressivePlayer, LocationStrategistPlayer
 
 logger = logging.getLogger(__name__)
 
@@ -21,13 +21,26 @@ NUM_PROCS = 1
 NUM_ROUNDS = 5  # number times to replicate the match; increase for higher confidence estimate
 TIME_LIMIT = 150  # number of milliseconds before timeout
 
-TEST_AGENTS = {
+PLAYER_AGENTS = {
     "RANDOM": Agent(RandomPlayer, "Random Agent"),
     "GREEDY": Agent(GreedyPlayer, "Greedy Agent"),
     "MINIMAX": Agent(MinimaxPlayer, "Minimax Agent"),
-    "SELF": Agent(CustomPlayer, "Custom TestAgent")
+    "SELF": Agent(CustomPlayer, "Custom Agent"),
+    "BASE": Agent(BaselinePlayer, "Baseline Agent"),
+    "DEFENSIVE": Agent(DefensivePlayer, "DefensivePlayer Agent"),
+    "AGGRESSIVE": Agent(AggressivePlayer, "AggressivePlayer Agent"),
+    "LOCATIONSTRATEGIST": Agent(LocationStrategistPlayer, "LocationStrategistPlayer Agent")
 }
-
+OPPONENT_AGENTS = {
+    "RANDOM": Agent(RandomPlayer, "Random Agent"),
+    "GREEDY": Agent(GreedyPlayer, "Greedy Agent"),
+    "MINIMAX": Agent(MinimaxPlayer, "Minimax Agent"),
+    "SELF": Agent(CustomPlayer, "Custom Opponent Agent"),
+    "BASE": Agent(BaselinePlayer, "Baseline Opponent Agent"),
+    "DEFENSIVE": Agent(DefensivePlayer, "DefensivePlayer Opponent Agent"),
+    "AGGRESSIVE": Agent(AggressivePlayer, "AggressivePlayer Opponent Agent"),
+    "LOCATIONSTRATEGIST": Agent(LocationStrategistPlayer, "LocationStrategistPlayer Opponent Agent")
+}
 Match = namedtuple("Match", "players initial_state time_limit match_id debug_flag")
 
 
@@ -104,9 +117,9 @@ def play_matches(custom_agent, test_agent, cli_args):
 
 
 def main(args):
-    test_agent = TEST_AGENTS[args.opponent.upper()]
-    custom_agent = Agent(CustomPlayer, "Custom Agent")
-    wins, num_games = play_matches(custom_agent, test_agent, args)
+    player_agent = PLAYER_AGENTS[args.player.upper()]
+    test_agent = OPPONENT_AGENTS[args.opponent.upper()]
+    wins, num_games = play_matches(player_agent, test_agent, args)
 
     logger.info("Your agent won {:.1f}% of matches against {}".format(
        100. * wins / num_games, test_agent.name))
@@ -161,12 +174,20 @@ if __name__ == "__main__":
         """
     )
     parser.add_argument(
-        '-o', '--opponent', type=str, default='MINIMAX', choices=list(TEST_AGENTS.keys()),
+        '-pr', '--player', type=str, default='SELF', choices=list(PLAYER_AGENTS.keys()),
+        help="""\
+            Choose an player agent for testing. 
+        """
+    )
+
+    parser.add_argument(
+        '-o', '--opponent', type=str, default='MINIMAX', choices=list(OPPONENT_AGENTS.keys()),
         help="""\
             Choose an agent for testing. The random and greedy agents may be useful 
             for initial testing because they run more quickly than the minimax agent.
         """
     )
+
     parser.add_argument(
         '-p', '--processes', type=int, default=NUM_PROCS,
         help="""\
@@ -185,6 +206,7 @@ if __name__ == "__main__":
     logging.basicConfig(filename="matches.log", filemode="w", level=logging.DEBUG)
     logging.info(
         "Search Configuration:\n" +
+        "Player: {}\n".format(args.player) +
         "Opponent: {}\n".format(args.opponent) +
         "Rounds: {}\n".format(args.rounds) +
         "Fair Matches: {}\n".format(args.fair_matches) +

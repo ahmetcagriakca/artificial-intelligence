@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa731db9-1d23-462c-ba85-7043e9e6a764" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/my_custom_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_custom_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_my_custom_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_my_custom_player.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Dev\Git\AI\artificial-intelligence\Projects\3_Adversarial Search\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cEo38ox77kKMDw7ib1S6T3ZmLw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_my_custom_player.CustomPlayerPlayTest">
+    <configuration name="pytest for test_my_custom_player.BaseCustomPlayerTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="3_Adversarial Search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_custom_player.BaseCustomPlayerTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_custom_player.CustomPlayerGetActionTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="3_Adversarial Search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_custom_player.CustomPlayerGetActionTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_custom_player.CustomPlayerGetActionTest.test_get_action_terminal" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="3_Adversarial Search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_custom_player.CustomPlayerGetActionTest.test_get_action_terminal&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_custom_player.CustomPlayerPlayTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="3_Adversarial Search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_custom_player.CustomPlayerPlayTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_my_custom_player.CustomPlayerPlayTest.test_custom_player (1)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="3_Adversarial Search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;test_custom_player&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_my_custom_player.CustomPlayerPlayTest.test_custom_player&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_my_custom_player.CustomPlayerPlayTest" />
+        <item itemvalue="Python tests.pytest for test_my_custom_player.CustomPlayerPlayTest.test_custom_player (1)" />
+        <item itemvalue="Python tests.pytest for test_my_custom_player.CustomPlayerGetActionTest" />
+        <item itemvalue="Python tests.pytest for test_my_custom_player.CustomPlayerGetActionTest.test_get_action_terminal" />
+        <item itemvalue="Python tests.pytest for test_my_custom_player.BaseCustomPlayerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa731db9-1d23-462c-ba85-7043e9e6a764" name="Default Changelist" comment="" />
+      <created>1590102911465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590102911465</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="710" y="135" key="CommitChangelistDialog2" timestamp="1590186426602">
+      <screen x="212" y="0" width="1708" height="1080" />
+    </state>
+    <state x="710" y="135" key="CommitChangelistDialog2/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590186426602" />
+    <state width="1698" height="289" key="GridCell.Tab.0.bottom" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.0.bottom/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103631008" />
+    <state width="1687" height="289" key="GridCell.Tab.0.bottom/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469530446" />
+    <state width="1698" height="289" key="GridCell.Tab.0.bottom/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.0.center" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.0.center/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103631008" />
+    <state width="1687" height="289" key="GridCell.Tab.0.center/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469530446" />
+    <state width="1698" height="289" key="GridCell.Tab.0.center/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.0.left" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.0.left/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103631008" />
+    <state width="1687" height="289" key="GridCell.Tab.0.left/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469530446" />
+    <state width="1698" height="289" key="GridCell.Tab.0.left/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.0.right" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.0.right/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103631008" />
+    <state width="1687" height="289" key="GridCell.Tab.0.right/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469530446" />
+    <state width="1698" height="289" key="GridCell.Tab.0.right/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.1.bottom" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.1.bottom/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103596244" />
+    <state width="1687" height="289" key="GridCell.Tab.1.bottom/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469533345" />
+    <state width="1698" height="289" key="GridCell.Tab.1.bottom/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.1.center" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.1.center/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103596244" />
+    <state width="1687" height="289" key="GridCell.Tab.1.center/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469533345" />
+    <state width="1698" height="289" key="GridCell.Tab.1.center/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.1.left" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.1.left/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103596244" />
+    <state width="1687" height="289" key="GridCell.Tab.1.left/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469533345" />
+    <state width="1698" height="289" key="GridCell.Tab.1.left/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state width="1698" height="289" key="GridCell.Tab.1.right" timestamp="1590614829224">
+      <screen x="201" y="0" width="1719" height="1080" />
+    </state>
+    <state width="1686" height="364" key="GridCell.Tab.1.right/-1707.0.1707.1080/213.0.1707.1080@213.0.1707.1080" timestamp="1590103596244" />
+    <state width="1687" height="289" key="GridCell.Tab.1.right/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469533345" />
+    <state width="1698" height="289" key="GridCell.Tab.1.right/-1719.0.1719.1080/201.0.1719.1080@201.0.1719.1080" timestamp="1590614829224" />
+    <state x="820" y="246" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1590187113645">
+      <screen x="212" y="0" width="1708" height="1080" />
+    </state>
+    <state x="820" y="246" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590187113645" />
+    <state x="761" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1590469227643">
+      <screen x="212" y="0" width="1708" height="1080" />
+    </state>
+    <state x="761" y="365" key="com.intellij.ide.util.TipDialog/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590469227643" />
+    <state x="637" y="277" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590287041414">
+      <screen x="212" y="0" width="1708" height="1080" />
+    </state>
+    <state x="637" y="277" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1708.0.1708.1080/212.0.1708.1080@212.0.1708.1080" timestamp="1590287041414" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/isolation/__init__.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/isolation/__init__.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/isolation/__init__.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/isolation/__init__.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/isolation/__init__.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/my_custom_player.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="game_state.actions()" language="Python" />
+        <watch expression="state.actions()" language="Python" />
+        <watch expression="action" language="Python" />
+        <watch expression="len(state.actions())" language="Python" />
+        <watch expression="cells.gi_code" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
